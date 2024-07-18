@@ -1,0 +1,6 @@
+@MysticFalls_VillaAPI_HostAddress = http://localhost:5182
+
+GET {{MysticFalls_VillaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
