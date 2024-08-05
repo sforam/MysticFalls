@@ -1,5 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
+using MysticFalls_VillaAPI;
 using MysticFalls_VillaAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultString"));
 });
 // Add services to the container.
-
+builder.Services.AddAutoMapper(typeof(MappingConfig));
 
 
 builder.Services.AddControllers();
