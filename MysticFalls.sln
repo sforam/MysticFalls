@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysticFalls_VillaAPI", "MysticFalls_VillaAPI\MysticFalls_VillaAPI.csproj", "{81354EEF-9AC9-4A2E-9BAF-B9572BEDBE96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MysticFalls_VillaAPI", "MysticFalls_VillaAPI\MysticFalls_VillaAPI.csproj", "{81354EEF-9AC9-4A2E-9BAF-B9572BEDBE96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysticFalls", "MysticFalls\MysticFalls.csproj", "{AE107175-D55E-4FA8-B8F5-A34BF826FA51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysticFalls_Utiltity", "MysticFalls_Utiltity\MysticFalls_Utiltity.csproj", "{1B7CFA60-5774-4C6D-AE11-B21D53B7B935}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{81354EEF-9AC9-4A2E-9BAF-B9572BEDBE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81354EEF-9AC9-4A2E-9BAF-B9572BEDBE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81354EEF-9AC9-4A2E-9BAF-B9572BEDBE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE107175-D55E-4FA8-B8F5-A34BF826FA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE107175-D55E-4FA8-B8F5-A34BF826FA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE107175-D55E-4FA8-B8F5-A34BF826FA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE107175-D55E-4FA8-B8F5-A34BF826FA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7CFA60-5774-4C6D-AE11-B21D53B7B935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7CFA60-5774-4C6D-AE11-B21D53B7B935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7CFA60-5774-4C6D-AE11-B21D53B7B935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7CFA60-5774-4C6D-AE11-B21D53B7B935}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

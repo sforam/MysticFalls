@@ -12,7 +12,7 @@ namespace MysticFalls_VillaAPI.Data
 
         public DbSet<Villa> Villas {get;set;}
 
-
+        public DbSet<VillaNumber> VillaNumbers {get;set;}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Villa>().HasData(
@@ -77,6 +77,20 @@ namespace MysticFalls_VillaAPI.Data
                   CreatedDate = DateTime.Now
               }
                 );
+/*
+            modelBuilder.Entity<VillaNumber>().HasData(
+              new VillaNumber
+              { 
+              });*/
+
+
+    
+
+
+
+
+
+
         }
     }
 }
